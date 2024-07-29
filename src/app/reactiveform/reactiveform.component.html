@@ -1,0 +1,37 @@
+<h2>Registration Form USing Reactive  </h2>
+
+<div>
+<form [formGroup]="regForm"(ngSubmit)="register(regForm)" >
+<div>
+ First Name : <input type="'text"placeholder="Enter Your Name" formControlName="fname">
+
+</div>
+
+<div>
+    Last Name : <input type="'text"placeholder="Enter Your Last Name"  formControlName="lname">
+   
+   </div>
+
+   <div>
+    Email : <input type="'text"placeholder="Enter Your Email"  formControlName="email">
+   
+   </div>
+
+
+  <div>
+   MobileNumber : <input type="'text"placeholder="Enter Your Mobile no"  formControlName="mobilenumber">
+  
+  </div>
+
+
+
+
+
+
+</form>
+
+
+
+
+
+</div>
