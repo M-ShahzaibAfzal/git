@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "forms": {
+=======
+    "marksPercentageApp": {
+>>>>>>> origin/master
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/forms",
+=======
+            "outputPath": "dist/marks-percentage-app",
+>>>>>>> origin/master
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +72,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "forms:build:production"
             },
             "development": {
               "buildTarget": "forms:build:development"
+=======
+              "buildTarget": "marksPercentageApp:build:production"
+            },
+            "development": {
+              "buildTarget": "marksPercentageApp:build:development"
+>>>>>>> origin/master
             }
           },
           "defaultConfiguration": "development"
@@ -99,6 +114,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "e8bc4964-763f-4032-aaf2-5ccda094d9a1"
+=======
+    "analytics": false
+>>>>>>> origin/master
   }
 }

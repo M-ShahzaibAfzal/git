@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "forms",
+=======
+  "name": "marks-percentage-app",
+>>>>>>> origin/master
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +11,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+<<<<<<< HEAD
     "serve:ssr:forms": "node dist/forms/server/server.mjs"
+=======
+    "serve:ssr:marksPercentageApp": "node dist/marks-percentage-app/server/server.mjs"
+>>>>>>> origin/master
   },
   "private": true,
   "dependencies": {
