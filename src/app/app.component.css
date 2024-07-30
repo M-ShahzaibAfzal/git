@@ -1,0 +1,53 @@
+/* General styles for the app */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  nav ul li a.active {
+    background-color: #28a745;
+  }
+  
+
+  h1{
+        background-color: aqua;
+
+  }
+  /* Styles for the main content */
+  main {
+    padding: 20px;
+  }
+  
